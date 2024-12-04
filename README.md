@@ -1,13 +1,7 @@
 
 # Hangman Command Line interface
 
-
-Challenge 2
- 
-
-
 # 01 OverView
-
 A Recreatation of the classic game of Hangman in command line interface to reinforce applying coding fundamentals 
 
 ## Objectives 
