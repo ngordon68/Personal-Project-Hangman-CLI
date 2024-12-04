@@ -10,43 +10,13 @@ Challenge 2
 
 A Recreatation of the classic game of Hangman in command line interface to reinforce applying coding fundamentals 
 
-## 
-<img width="300px; height: 500px;" alt="Screen Shot 2023-02-16 at 11 50 11 AM" src="https://user-images.githubusercontent.com/124601363/219433319-6f2c39df-5b1c-45aa-a61e-9c4a8dc71baa.png">
-
-<table>
- <tr>
-  <td>
-  <img width="300px; height: 500px;" alt="Screen Shot 2023-02-16 at 11 51 24 AM" src="https://user-images.githubusercontent.com/124601363/219971727-8d45fc51-7ff6-42ec-8c9a-7c7d0636b110.png">
-
-
-  
-  <td>
-   
- <img width="290" alt="Screen Shot 2023-02-19 at 3 08 17 PM" src="https://user-images.githubusercontent.com/124601363/219972589-c770946f-b243-4135-81a8-61e6af5f70c8.png">
-
-
- 
-  <td>
-  <tr>
-  
-   <table>
-  
-
-
-
 ## Objectives 
-- Code up a MVP(Mininum Viable Product) of a Routr App for remote workers
-- Take Hi-Fi specifications and translate to Xcode app.
-- Collaboration with coders and designers to bring our Hi-Fi prototype to life.
-- Test UI and UX through documentation.
-- Test code to find any inconsistencies.
-- Submit Project to TestFlight for UserFeedback and make changes accordingly.
-
-
-
+- Applying the coding fundamentals to make a game
+- Testing and refinine game logic
+- 
 
 ## 🛠 Skills
-Swift, Swift UI, XCode, Figma, Sketch, YELP API, SwiftCharts, Combine
+Swift
 
 
 
