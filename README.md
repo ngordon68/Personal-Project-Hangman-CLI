@@ -7,9 +7,6 @@ A Recreatation of the classic game of Hangman in command line interface to reinf
 ## Objectives 
 - Applying the coding fundamentals to make a game
 - Testing and refinine game logic
-  
-## 🛠 Skills
-Swift
 
 # 02 Coding Topics
 - Loops
@@ -17,6 +14,7 @@ Swift
 - structs
 - functions
 - arrays
+- Xcode
 
 
 # 03 Project Timeline
