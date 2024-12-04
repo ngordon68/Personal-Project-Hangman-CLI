@@ -17,16 +17,13 @@
  */
 import Foundation
 
-
-
-var listOfWords = ["pizza"]
+var listOfWords = ["Academy"]
 var currentWord = listOfWords.randomElement()!
 var currentWordInArray = Array(currentWord).map {String($0) }
 var guessedWordCount = currentWord.count
 var guessedWord = String(repeating: "_", count: guessedWordCount)
 var guessedWordArray = guessedWord.map {String($0) }
 var attempts = 0
-
 
 fileprivate func placeLetter(_ userInput: String) {
     print("You have guessed \(userInput) which is correct!")
@@ -37,10 +34,17 @@ fileprivate func placeLetter(_ userInput: String) {
             
         }
     }
-    print(guessedWord)
 }
 fileprivate func generateHangman() {
     switch attempts {
+        
+    case 0:
+        print(" +---+")
+        print("     | ")
+        print("     | ")
+        print("     | ")
+        print("     | ")
+        
     case 1:
         print(" +---+")
         print(" 0   | ")
@@ -82,8 +86,11 @@ fileprivate func generateHangman() {
 
 func playGame() {
     
-    while attempts <= 5 {
-        print("Guess a letter!")
+    generateHangman()
+    
+    while attempts <= 5 || currentWord == guessedWord {
+        print("Guess a letter that has \(guessedWordCount) letters!")
+        print(guessedWord)
         guard let userInput = readLine() else { return  print("please try again") }
         
         if currentWord.contains(userInput) {
@@ -100,6 +107,9 @@ func playGame() {
         }
     }
     print("You LOSE!")
+    print("Would you like to play again? y or n")
+    
+
 }
 
 playGame()
