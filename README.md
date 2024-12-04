@@ -12,13 +12,11 @@ A Recreatation of the classic game of Hangman in command line interface to reinf
 Swift
 
 # 02 Coding Topics
-- Classes
-- State Objects/Observable Object
-- Yelp API Intergation
-- Array Appending
-- NavigationLink
-- Bottom Sheets
-- Maps Integration
+- Loops
+- Booleans
+- structs
+- functions
+- arrays
 
 
 # 03 Project Timeline
